@@ -1,6 +1,8 @@
 package com.animeregistration.animes.service;
 
 import com.animeregistration.animes.domain.Anime;
+import com.animeregistration.animes.exception.BadRequestException;
+import com.animeregistration.animes.mapper.AnimeMapper;
 import com.animeregistration.animes.repository.AnimeRepository;
 import com.animeregistration.animes.requests.AnimePostRequestBody;
 import com.animeregistration.animes.requests.AnimePutRequestBody;

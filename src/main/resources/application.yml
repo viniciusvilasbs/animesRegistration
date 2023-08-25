@@ -20,3 +20,18 @@ logging:
       hibernate:
         SQL: debug
 #        type: trace
+
+management:
+  endpoints:
+    web:
+      exposure:
+        #          include: "*"
+        include: info, health, metrics, prometheus
+  info:
+    env:
+      enabled: true
+
+info:
+  app: Animes Registration App
+  website: https://www.linkedin.com/in/viniciusvbs
+  github: https://github.com/viniciusvilasbs

@@ -2,6 +2,8 @@ package com.animeregistration.animes.service;
 
 import com.animeregistration.animes.domain.Anime;
 import com.animeregistration.animes.repository.AnimeRepository;
+import com.animeregistration.animes.requests.AnimePostRequestBody;
+import com.animeregistration.animes.requests.AnimePutRequestBody;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

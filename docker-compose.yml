@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  db:
+    image: mysql
+    container_name: animes_registration_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3309:3306"
+    volumes:
+      - animes_registration_data:/var/lib/mysql
+
+volumes:
+  animes_registration_data:
